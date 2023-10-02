@@ -1,0 +1,123 @@
+               /********reset*********/
+    * {
+     margin: 0;
+     box-sizing: border-box;
+     padding: 0;
+    }
+               /*****general******/         
+  
+  :root{
+    --font-family: 'Roboto';
+    --main-color:#066acd;
+    --section-color: #ffffff;
+    --task-color:#c5e1e6;
+  }
+            /****** start main*******/
+            body{
+              background-color: var(--main-color);
+              min-height: 100%;
+            }
+
+      main{
+        
+        display: flex;
+       min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section{
+      
+      border-color: #ffffff;
+      border-style: solid;
+      border-radius: 10px;
+      flex-direction: column;
+      display: flex;
+      justify-content:space-evenly;
+      align-items: center;
+      width: 420px;
+      
+      background-color: var(--section-color);
+    }
+    #error-message{
+      display: none;
+      align-items: center;
+     background-color: rgb(255, 0, 0);
+     width: 257px;
+     height: 40px;
+      position: relative;
+      margin: 10px;
+      top: 8px;
+      
+    }
+     #error-title{
+      margin-left: 5px;
+      font-family: var(--font-family);
+      color: var(--section-color);
+     }
+     #inputs{
+      margin: 36px;
+      position: relative;
+      top: 1px;
+     }
+     #list{
+      margin-bottom: 20px;
+      border-width: 1px;
+      border-color: rgba(24, 23, 23, 0.829);
+      border-style: solid;
+      border-radius: 10px;
+      top: -37px;
+      position: relative;
+      justify-content: start;
+      align-items: center;
+      width: 374px;
+      height: 47px;
+      display: flex;
+      background-color: var(--task-color);
+     }
+     #tas-titles{
+    font-family: 'Segoe UI';
+      font-size: 19px;
+      left: 13px;
+      position: relative;
+      margin-bottom: 6px;
+     }
+     #date-title{
+      font-family: 'Segoe UI';
+      left: 95px;
+     position: relative;
+      margin: 13px;
+     }
+     #trash-btn{
+      display: flex;
+      position: relative;
+      left: 94px;
+      cursor: pointer;
+     }
+     #task-input{
+      border-color: var(--main-color);
+      border-radius: 4px;
+      border-style: solid;
+      height: 37px;
+      width: 246px;
+     }
+     #add{
+       font-family: Verdana;
+       color: var(--section-color);
+        border-radius: 3px;
+       border-color: var(--main-color);
+       border-style: solid;
+       width: 73px;
+         height: 35px;
+    background-color: var(--main-color);
+     }
+     #parent{
+      position: relative;
+      left: 85px;
+      margin-top: 17px;
+      margin-bottom: 17px;
+     }
+
+     #nothing{
+      margin: 45px;
+     }
